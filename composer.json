@@ -1,0 +1,12 @@
+{
+    "name": "fys/middleware-bundle",
+    "type": "symfony-bundle",
+    "description": "provide simple middleware configuration for symfony 4",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "FYS\\MiddlewareBundle\\": "" }
+    }
+}

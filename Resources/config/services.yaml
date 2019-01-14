@@ -1,0 +1,6 @@
+services:
+    FYS\MiddlewareBundle\Manager\MiddlewareManager:
+
+    FYS\MiddlewareBundle\EventSubscriber\MiddlewareSubscriber:
+        arguments: ["@FYS\\MiddlewareBundle\\Manager\\MiddlewareManager", "@controller_resolver"] 
+        tags: ["kernel.event_subscriber"]
