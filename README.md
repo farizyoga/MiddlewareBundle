@@ -51,7 +51,7 @@ namespace App\Controller\TestController;
 
 use FYS\MiddlewareBundle\Contract\MiddlewareControllerInterface;
 
-class TestController
+class TestController implements MiddlewareControllerInterface
 {
     // your logic controller
     
